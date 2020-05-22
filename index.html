@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Product Landing Page</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="https://avatars2.githubusercontent.com/u/32511206?s=460&v=4"
+        alt="phantware logo"
+        class="img-logo"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#form">Contact</a></li>
+          <li><a class="nav-link" href="#product">Product</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="webpage" id="home"></section>
+      <section id="about" class="welcome">
+        <h1 id="title">Welcome to my website</h1>
+        <p id="description">
+          We are into Microsoft Dynamic ERP NAV/Business Central functional
+          Consultant, we have worked with so many companies in Nigeria. We offer
+          Microsoft product licensing, support and trainings.
+        </p>
+        <p id="description">
+          We are also into software Development, we have worked with Hotel NG as
+          an interns, Andela Community as an interns and has done a lot of
+          project with them. We also took part in SDG projects hosted by Andela
+          and SDG where we build a complete backend product using Nodejs,
+          Express and PostgreSQL.
+        </p>
+      </section>
+      <section class="video-page">
+        <div class="video">
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/YWA-xbsJrVg"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section id="contact" class="contact"></section>
+      <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        method="post"
+      >
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your fullname"
+          class="form-control"
+        />
+        <br />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email address"
+          class="form-control"
+        />
+        <br />
+        <label for="message">Enter your message here</label>
+        <textarea
+          name=""
+          id="message"
+          cols="80"
+          rows="5"
+          placeholder="Please enter your message here"
+          class="textarea"
+        ></textarea>
+        <input type="submit" id="submit" class="submit-button" />
+      </form>
+      <section id="product">
+        <div class="grid">
+          <div>
+            <h4>Navision</h4>
+
+            <img
+              src="https://www.australdynamics.com/wp-content/uploads/2016/07/MS-Dynamics-NAV.jpg"
+              alt="Microsoft Dynamics Navision"
+              class="grid-img"
+            />
+            <div class="product-text">
+              <p>
+                Microsofr dynamics is an accounting tools that is used to manage
+                business of various kind, ranging from manufacturing, to
+                distibution etc.
+              </p>
+            </div>
+          </div>
+          <div>
+            <h4>Software and Hardware Engineering</h4>
+            <img
+              src="https://www.strath.ac.uk/media/1newwebsite/courses/science/600x600/Software_Engineering_600x600.jpg"
+              alt="software Engineering"
+              class="grid-img"
+            />
+            <div class="product-text">
+              <p>
+                We took time to build a first class softwares for our client
+                based on their request to the stage of hosting and managing the
+                website. we consult with them on various changes.
+              </p>
+            </div>
+          </div>
+          <div>
+            <h4>IT Training</h4>
+            <img
+              src="https://www.bgosoftware.com/blog/wp-content/uploads/2019/11/web_academy_2-0_blog_img.jpg"
+              alt="IT Trainings"
+              class="grid-img"
+            />
+            <div class="product-text">
+              <p>
+                We are first class IT based company and part of our work is to
+                train upcoming leaders on various IT skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
